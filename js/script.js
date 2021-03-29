@@ -52,6 +52,4 @@ generateButton = generateButton.addEventListener('click', function(){
     document.getElementById("result-nome-passeggero").innerHTML = nomeUtente + ' ' + cognomeUtente;
     document.getElementById("result-offerta-passeggero").innerHTML = valutaOfferta;
     document.getElementById("result-prezzo-finale-passeggero").innerHTML = prezzoFinale.toFixed(2) + ' €';
-
-
 });
