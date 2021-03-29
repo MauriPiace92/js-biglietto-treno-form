@@ -24,9 +24,15 @@ body{
     background-color: white;
     border-radius: 30px;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: space-around;
     color: #b91450;
+}
+.generate-ticket div{
+    display: inline-block;
+    width: calc(( 100% / 4 ) - 5px );
+    text-align: center;
+    /* height: 204px; */
+    padding: 28px 10px;
+    font-weight: bold;
 }
 .generate-ticket input{
     border: 1px solid #b91450;
@@ -38,7 +44,7 @@ body{
 .generate-ticket select{
     border: 1px solid #b91450;
     border-radius: 10px;
-    padding: 5px 5px;
+    padding: 5px 10px;
     margin-top: 5px;
 }
 
@@ -67,6 +73,35 @@ h2{
     background-color: white;
     border-radius: 30px;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
-   color: black;
+    color: black;
+}
+.hidden{
+    display: none;
+}
+.your-ticket h4{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.info-wrapper{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
 
+.info-wrapper div{
+    display: inline-block;
+    width: calc(( 100% / 5 ) - 5px );
+    text-align: left;
+    height: 204px;
+    padding: 28px 10px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+.nome-passeggero{
+    background-color: gray;
+}
+
+.your-ticket p{
+    font-weight: normal;
+    margin-top: 30px;
 }

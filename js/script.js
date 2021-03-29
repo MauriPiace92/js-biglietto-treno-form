@@ -2,6 +2,10 @@
 var generateButton = document.getElementById('generate-button');
 generateButton = generateButton.addEventListener('click', function(){
 
+    // far apparire il div passeggero
+    var hidddenClass = document.getElementById ('ticket-result');
+    hidddenClass.className = "your-ticket";
+
     // nome e cognome
     var nomeUtente = document.getElementById('nome-utente').value;
     console.log (nomeUtente);
