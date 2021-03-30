@@ -65,10 +65,10 @@ var nullButton = document.getElementById('annulla-button');
 nullButton = nullButton.addEventListener('click', function(){
 
 
-    document.getElementById("nome-utente").value = " ";
-    document.getElementById("cognome-utente").value = " ";
+    document.getElementById("nome-utente").value = "";
+    document.getElementById("cognome-utente").value = "";
     document.getElementById("fascia-eta").value = "maggiorenne";
-    document.getElementById('km-percorrere').value  = "";
+    document.getElementById('km-percorrere').value  ="";
 
     var hidddenClass = document.getElementById ('ticket-result');
     hidddenClass.classList = "hidden";
