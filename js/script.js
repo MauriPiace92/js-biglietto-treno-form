@@ -64,7 +64,12 @@ generateButton = generateButton.addEventListener('click', function(){
 var nullButton = document.getElementById('annulla-button');
 nullButton = nullButton.addEventListener('click', function(){
 
-    var hidddenClass = document.getElementById ('ticket-result');
-    hidddenClass.className = "hidden";
 
+    document.getElementById("nome-utente").value = " ";
+    document.getElementById("cognome-utente").value = " ";
+    document.getElementById("fascia-eta").value = "maggiorenne";
+    document.getElementById('km-percorrere').value  = "";
+
+    var hidddenClass = document.getElementById ('ticket-result');
+    hidddenClass.classList = "hidden";
 });
