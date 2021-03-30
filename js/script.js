@@ -6,6 +6,8 @@ generateButton = generateButton.addEventListener('click', function(){
     var hidddenClass = document.getElementById ('ticket-result');
     hidddenClass.className = "your-ticket";
 
+
+
     // nome e cognome
     var nomeUtente = document.getElementById('nome-utente').value;
     console.log (nomeUtente);
@@ -56,4 +58,13 @@ generateButton = generateButton.addEventListener('click', function(){
     document.getElementById("result-nome-passeggero").innerHTML = nomeUtente + ' ' + cognomeUtente;
     document.getElementById("result-offerta-passeggero").innerHTML = valutaOfferta;
     document.getElementById("result-prezzo-finale-passeggero").innerHTML = prezzoFinale.toFixed(2) + ' €';
+});
+
+// Far scomparire con il click di annulla
+var nullButton = document.getElementById('annulla-button');
+nullButton = nullButton.addEventListener('click', function(){
+
+    var hidddenClass = document.getElementById ('ticket-result');
+    hidddenClass.className = "hidden";
+
 });
